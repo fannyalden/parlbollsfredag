@@ -1,0 +1,42 @@
+.App {
+  font-family: "Inconsolata", monospace;
+  background: linear-gradient(135deg, #fff60a 0%, #fdff87 100%);
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.context {
+  margin-top: 56px;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1000 - 300)));
+  text-align: center;
+}
+.clock {
+  text-align: center;
+  font-size: calc(30px + (100 - 30) * ((100vw - 300px) / (1000 - 300)));
+}
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.clock-day,
+.clock-hour,
+.clock-minute,
+.clock-second {
+  display: inline;
+  margin: 10 px;
+}
